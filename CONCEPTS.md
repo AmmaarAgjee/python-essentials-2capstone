@@ -145,3 +145,27 @@ This project helped me understand how different Python concepts can work togethe
 I used classes and objects for the students, file handling for the student data, generators for finding passing students, closures for the custom pass mark, and `iter()` and `next()` for working with iterators.
 
 Splitting the project into different files also helped me keep everything organised and made it easier to understand what each part of the program does. 
+
+### data_tools.py
+
+The `data_tools.py` file deals with working with files and cleaning the student data.
+
+It creates the student data file, reads the data, cleans things like extra spaces and names, and also writes the report and activity log.
+
+### analytics.py
+
+The `analytics.py` file deals with analysing the student data.
+
+It calculates things like the class average and pass rate. It also uses a generator for the passing students and a closure for the custom pass mark.
+
+### reporting.py
+
+The `reporting.py` file is used to create reports about the computer environment and the current date.
+
+It uses Python's built-in modules to get information such as the operating system, Python version, working directory, and date information.
+
+### main.py
+
+The `main.py` file brings everything together.
+
+It imports the classes and functions from the other files and uses them through the main menu. This is what allows the user to interact with all the different parts of the project from one place.
