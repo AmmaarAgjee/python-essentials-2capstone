@@ -67,3 +67,29 @@ This project helped me use different Python concepts that I learned during Pytho
 - **Iterators** - I used `iter()` and `next()` to work with student records.
 - **Exception Handling** - I used `try` and `except` to handle errors and bad input.
 - **Modules** - I separated the project into different files so each part has its own job.
+
+## Sample Output
+
+Example of the program running in the terminal:
+
+```text
+=================================
+ Student Analytics Toolkit
+=================================
+
+1. Generate sample data file
+2. Load & clean records from file
+3. View all students
+4. Analyse
+5. Filter students
+6. Grade with a custom pass mark
+7. Environment & date report
+8. Export results to a file
+9. Exit
+
+Enter your choice: 4
+
+Class Average: 68.50%
+Highest Score: 92%
+Lowest Score: 41%
+Pass Rate: 75.00%
